@@ -1,0 +1,265 @@
+
+body{
+    background-image: url(../images/fondo.jpg);
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+/*Header-index*/
+
+.logo-nav{
+    width: 85px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.links-nav{
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+    color: white;
+    
+}
+.links-nav:hover{
+    transition-duration: 0.1s;
+    text-shadow: 0 0 20px #fff;
+}
+.li-nav{
+    list-style-type: none;
+}
+.menu{
+    display: flex;
+    padding-top: 30px;
+    gap: 10px;
+}
+
+/*Main-Index*/
+
+.title-main-index{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    font-size: 40px;
+    cursor: default;
+}
+/*Carousel-index*/
+.carousel, .carousel-inner > .item > img {
+    
+    width: 65%;
+   
+  }
+.carousel-caption a{
+    text-decoration: none;
+    color: white;
+}
+  
+  h5{
+    font-size: 30px;
+  }
+
+
+
+/*Secciones-index*/
+
+#h2-seccion-main{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.seccion-index{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    justify-content: center;
+    gap: 200px;
+    justify-items: center;
+    
+    
+}
+.cajas-secciones-index {
+    display: flex;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 10px 0px white;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+    height: 255px;
+    transition: all;
+    background-color: black;
+    transition-duration: 1s;
+}
+
+.cajas-secciones-index:hover {
+    filter: invert(100%); 
+}
+
+
+.icons-index{
+    width: 60px;
+}
+
+.a-secciones-index{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.text-secciones-index{
+    color: white;
+    text-align: center;
+    width: 200px;
+    cursor: default;
+    font-size: 15px;
+}
+
+.button-index{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+    
+}
+/*Main-Contacto*/
+
+.h1-contacto{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+
+.main-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding-top: 60px;
+}
+.title-inputs{
+    font-size: 25px;
+    color: white;
+}
+
+.cajas-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.inputs{
+    background-color: gray;
+    border-radius: 10px 10px;
+    border: none;
+    text-align: center;
+    width: 250px;
+    height: 25px;
+}
+.inputs:focus{
+    transition: 1s;
+    background-color: white;
+    
+}
+.input-textarea{
+    
+    height:50px !important;
+}
+.boton-contacto{
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    border-radius: 10px 10px;
+}
+.button-contacto{
+    display: flex;
+    justify-content: center;
+    
+}
+/*Pagina de confirmacion de envio de formulario*/
+
+.main-confirmado{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+.div-confirmado{
+    backdrop-filter: blur(0px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}
+.div-confirmado h1{
+    font-size: 40px;
+}
+.div-confirmado p{
+    font-size: 20px;
+}
+.div-confirmado img{
+    width: 150px;
+}
+
+
+
+/*Footer*/
+.text-footer{
+    color: white;
+    font-size: 20px;
+}
+.icon-footer{
+    width: 55px;
+}
+.icons-footer{
+    
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    border: 1px solid black;
+}
+.footer{
+    margin-top: 80px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* Media query  */
+@media screen and (max-width: 768px) {
+    .seccion-index{
+        flex-direction: column;
+        gap: 50px;
+    }
+    nav{
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.6);
+        
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+
+
+
+
+}
