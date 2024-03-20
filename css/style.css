@@ -1,7 +1,7 @@
 
 body{
     background-image: url(../images/fondo.jpg);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(30px);
     background-size: cover;
     font-family: "Poppins", sans-serif;
     
@@ -164,7 +164,7 @@ nav{
     gap: 15px;
 }
 .inputs{
-    background-color: gray;
+    background-color: lightgray;
     border-radius: 10px 10px;
     border: none;
     text-align: center;
@@ -216,22 +216,286 @@ nav{
     width: 150px;
 }
 
+/*Donde estamos*/
+.title-donde-estamos{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+
+.section-donde-estamos{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+iframe{
+    width: 90vh;
+    height: 60vh;
+}
+.tarjeta-horarios{
+    color: white;
+    
+}
+
+.horarios-atencion{
+
+    color: white;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-size: 25px;
+    list-style-type: disc;
+    padding-top: 70px;   
+}
+
+.button-donde-estamos{
+    margin-left: 80px;
+    margin-top: 60px;
+    background-image:  linear-gradient(to left,rgba(0, 0, 250, 0.633)50%, white 50%) ;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 40px;
+    width: 120px;
+    border: none;
+    transition: background-position .5s ease;
+}
+.button-donde-estamos:hover{
+    background-position: left;
+}
+.href-button{
+    text-decoration: none;
+    color: white;
+}
+.href-button:hover{
+    color: black;
+}
+
+
+/*Nosotros*/
+
+.title-nosotros{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.img-nosotros{
+    width: 40vw;
+}
+.section1-nosotros{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 100px;
+    justify-content: center;
+    gap: 100px;
+}
+.tarjeta-section-nosotros{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 120px;
+}
+.h3-tarjetas{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+.text-section-nosotros{
+    color: white;
+    font-size: 20px;
+    width:  30vw ;
+    text-align: center;
+}
+
+/*Section Integrantes*/
+.section2-nosotros{
+    display: flex;
+    flex-direction: column;
+    gap: 50px   ;
+}
+/*Maria*/
+.h2-nosotros{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 150px;
+    font-size: 50px;
+}
+
+.div-maria{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 100px;
+    justify-content: center;
+    gap: 100px;
+}
+.img-integrantes{
+    width: 20vw;
+}
+
+.tarjeta-section-integrantes{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 40px;
+}
+.tarjeta-section-integrantes h2{
+    color: white;
+    text-align: center;
+}
+.text-section-integrantes{
+    color: white;
+    font-size: 20px;
+    width:  30vw ;
+    text-align: center;
+}
+/*Juan*/
+.div-juan{
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    gap: 100px;
+}
+/*Luisa*/
+.div-luisa{
+    display: flex;
+    padding-top: 100px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 100px;
+}
+/*Carlos*/
+.div-carlos{
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    gap: 100px;
+}
+/*Pedro*/
+.div-pedro{
+    display: flex;
+    padding-top: 100px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 100px;
+}
+/*Ultima seccion*/
+.section3-nosotros{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding-top: 130px;
+}
+.ultimo-texto-nosotros{
+    color: white;
+    font-size: 18px;
+    width: 60vw;
+    text-align: center;
+}
+.button-nosotros{
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-image:  linear-gradient(to left,rgba(0, 0, 250, 0.633)50%, white 50%) ;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 40px;
+    width: 120px;
+    border: none;
+    transition: background-position .5s ease;
+}
+.button-nosotros:hover{
+    background-position: left;
+}
+
+/*Servicios*/
+
+.title-servicios{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 70px;
+    font-size: 45px;
+}
+
+.section-servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:70px;
+    gap: 100px;
+}
+.tarjetas-servicios{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+    padding-top: 50px;
+    gap: 100px;
+    align-items: center;
+
+}
+.img-servicios{
+    width: 50vw;
+}
+.div-servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.text-servicios{
+    color: white;
+    width: 60vw;
+    text-align: center;
+    display: flex;
+}
+.button-servicios{
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-image:  linear-gradient(to left,rgba(0, 0, 250, 0.633)50%, white 50%) ;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 60px;
+    width: 140px;
+    border: none;
+    transition: background-position .5s ease;
+    font-size: 20px;
+}
+.button-servicios:hover{
+    background-position: left;
+}
+
+
+
+
 
 
 /*Footer*/
 .text-footer{
     color: white;
     font-size: 20px;
+    padding-bottom: 10px;
 }
 .icon-footer{
     width: 55px;
 }
 .icons-footer{
-    
     display: flex;
     justify-content: center;
     gap: 100px;
-    border: 1px solid black;
 }
 .footer{
     margin-top: 80px;
